@@ -1,0 +1,10 @@
+package demo;
+
+public class CircleDemo {
+	public void calc(double radius) {
+		
+	}
+	public static void main(String[] args) {
+		double radius=8.7;
+	}
+}

@@ -1,0 +1,9 @@
+package demo;
+
+public class Quiz8 {
+	
+	boolean status;
+	public static void main(String[] args) {
+		
+	}
+}

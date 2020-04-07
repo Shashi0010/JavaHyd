@@ -1,0 +1,219 @@
+You can create an object to the class as 
+
+class_name obj=new class_name();
+
+Integer.parseInt() : used to convert string to integer. 
+
+Control Structures : 
+_______________________
+
+Used to define the flow of the program. 
+
+There are 2 types of control structures known as 
+
+1) branching 
+
+	if...else : Executes the statements based on the condition. 
+
+	if(condition) {
+	   statment(s);
+	} else {
+	   statement(s);
+	}
+
+Exercise : 
+___________
+
+Write a program to read no.of units and generate current bill. 
+
+Assume, you consume 270 units then, 
+
+first 90 units 1rs per unit
+
+91 to 150 units its 1.5 rs 
+
+151 to 200 units its 2rs 
+
+201 to 240 units its 2.5 rs
+
+240+ its 3rs 
+
+
+(90*1) + (60*1.5) + (50 * 2) + (40 * 2.5) + 30 * 3 
+
+switch...case : used to menu driven programs. 
+
+switch(expr) 
+{
+   case expr1 : 
+	statement(s);
+	break;
+   case expr2 : 
+	statement(s);
+	break; 
+.....
+.....
+   default : 
+	statement(s);
+}
+
+_______________________________________________________________________________
+
+
+public class Quiz4 {
+	public void show(int choice) {
+		switch(choice) {
+		case 1 : 
+			System.out.println("Hi I am Amit");
+			break;
+		case 2 : 
+			System.out.println("Hi I am Prakash...");
+			break;
+		case 3 : 
+			System.out.println("Hi I am Dinesh...");
+		case 4 : 
+			System.out.println("Hi I am Karthik...");
+		case 5 : 
+			System.out.println("Hi I am Shashikanth...");
+		default : 
+			System.out.println("Invlid Choice...");
+		}
+	}
+	public static void main(String[] args) {
+		int choice=3;
+		new Quiz4.show(choice);
+	}
+}
+___________________________________________________________________________________
+
+class Test {
+
+    public void check(int x) {
+	if (x=2) {
+	 System.out.println("Hi " +x);
+	} else {
+         System.out.println("Bye " +x);
+	}
+    }	
+    public static void main(String[] args) {
+	new Test().check(2);
+    }
+}
+
+_____________________________________________________________________________________________________
+
+class Quiz5 {
+  public static void main(String[] args) {
+	boolean flag=true;
+	int x=flag;
+ 	System.out.println("X value is  " +x);	
+  }
+}
+
+
+compileTime error
+Runtime Error
+X value 1
+X value 0 
+____________________________________________________________________________________________
+
+class Quiz6 {
+  public static void main(String[] args) {
+	double x=67.4;
+        int y=x;
+	System.out.println("Y value is  " +y);
+  }
+}
+
+_______________________________________________________________________________________________
+
+
+class Quiz7 {
+  public static void main(String[] args) {
+	int x=67;
+	double y=x;
+	System.out.println("Y value is  " +y);
+  }
+}
+
+_______________________________________________________________________________________________________
+
+class Quiz8 {
+  boolean status;
+  public static void main(String[] args) {
+	Quiz8 obj = new Quiz8();
+	System.out.println(obj.status);
+  }
+}
+
+____________________________________________________________________________________________________________
+
+
+1) compile time
+
+2) runtime 
+
+3) true
+
+4) false 
+
+_______________________________________________________________________________________________________________________
+
+
+
+class Quiz9 {
+   public static void main(String[] args) {
+	int x;
+	System.out.println("X value is  " +x);
+   }
+}
+
+There are 2 types of memories known as 
+
+	1) STACK
+
+	2) HEAP 
+
+Value types will be stored in STACK, reference types will be stored in HEAP. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2) looping 
+

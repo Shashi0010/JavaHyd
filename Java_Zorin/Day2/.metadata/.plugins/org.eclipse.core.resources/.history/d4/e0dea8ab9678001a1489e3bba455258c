@@ -1,0 +1,9 @@
+package demo;
+
+public class Quiz5 {
+	public static void main(String[] args) {
+		boolean flag=true;
+		int x=flag;
+	 	System.out.println("X value is  " +x);	
+	}
+}

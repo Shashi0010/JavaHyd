@@ -1,0 +1,16 @@
+package demo;
+
+class Data {
+	public void karthik() {
+		System.out.println("Hi I am Karthik...");
+	}
+	private void prudhvi() {
+		System.out.println("Hi I am Prdhvi...");
+	}
+	void dinesh() {
+		System.out.println("Hi I am Dinesh...");
+	}
+}
+public class Demo {
+
+}

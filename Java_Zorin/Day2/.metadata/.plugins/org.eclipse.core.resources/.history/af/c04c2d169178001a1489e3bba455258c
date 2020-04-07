@@ -1,0 +1,10 @@
+package demo;
+
+public class Max3 {
+	public void check(int a,int b, int c) {
+		
+	}
+	public static void main(String[] args) {
+		int a=5,b=7,c=3;
+	}
+}
