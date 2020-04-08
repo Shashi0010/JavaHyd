@@ -1,0 +1,12 @@
+package com.zorin.day3;
+
+public class Fact {
+	
+	public void calc(int n) {
+		int i=1, f=1;
+		
+	}
+	public static void main(String[] args) {
+		int n=5;
+	}
+}

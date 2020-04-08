@@ -1,0 +1,7 @@
+package com.zorin.day3;
+
+public class Quiz2 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.zorin.day3;
+
+public class BoxingDemo {
+
+	public static void main(String[] args) {
+		int a=12;
+		double b=12.5;
+		String name="Prudhvi";
+		
+		
+	}
+}
