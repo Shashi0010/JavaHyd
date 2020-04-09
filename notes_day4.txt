@@ -1,0 +1,185 @@
+toString() : This method will be called automatically once you print the object. 
+
+
+Any time if you want to print the members of the class, please override this method.
+
+This method called automatically once you print the object. 
+
+
+
+
+hashCode()
+
+equals() 
+
+getClass()
+
+
+What is the difference betwen == and equals()
+
+s1==s2
+
+s1.equals(s2)
+
+== checks for the address value, where equals() checks for the content.
+
+but it varies w.r.t. String data type (vs) String Wrapper. 
+
+String is reference type but can be used for value type operations. 
+
+How the strings will be stored in memory, 
+
+When you assign any value to the String, at first it checks the value is available in the Heap memory
+or not, if the value is avaiable then it points to the same memory location, if the value is not available
+then it would be point to the different memory location. 
+
+
+How == and equals() works w.r.t. Custom Objects ???
+
+
+For custom objects, == always checks for the hashCode() and equals() method checks for its own overridable method.
+
+In thaat method, specify the field(s) on which basic we are checking the condition, and if the field(s) values are same
+then it returns true, else it returns false. 
+
+If you dont override equals() method then == and equals() both work in same way. 
+
+Method Overloading : Using the same method name w.r.t. Different data types or different 
+parameters known as method overloading. Here, the method name must be same, but no.of parameters
+and type of parameters we are passing are different. 
+
+
+class Demo {
+  int a,b;
+  a=5;
+  b=7;
+}
+
+The above code throws compile time errors, because a class never contains statements,
+
+a class contains only data members and member functions. In methods we have to write the code.
+
+You never write the code directly in the class. 
+
+So, then how to give the default values to the member variables. 
+
+
+Then we need the help of constructors. 
+
+A constructor is a special member, that which used to initialize the member variables of the class, 
+It is special because it has the same name as that of class name. 
+
+Rules : 
+________
+
+	-> It will not contains any return type.
+
+	-> It will not return any value. 
+
+	-> It will be invoked automatically once instance of the class created. 
+
+	-> A constructor can be overloaded.
+
+Types of Constructors : 
+
+There are 2 types of constructors 
+
+	1) static constructor : These are called class constructors, which are used to initilize the
+		static variables of the class, these constructors are invoked automatically 
+		before the control reaches the entry point. These constructors cannot be overlaoded. 
+
+	*** In java, we dont have any static constructors, we have to use static { } for 	
+		defining constructors ***
+
+	2) instance constructor : These are the constructors, that which are invoked automatically,
+		once the instance of the class created. These constructors can be overloaded. 
+
+
+Question for You : 
+_____________________
+
+Now, we are writing default constructor, but previous programs no default constructor in our code, 
+then once you create an object how the default constructor getting executed.  
+
+What is happending internally 
+
+
+If no constructors found, JVM provides default constructor from java.lang.Object class, 
+if you define constructor, then its ur job to define all polymorphic constructors. 
+
+____________________________________________________________________________________________________
+
+1) Write a program to display a number in words range from (1 to 9999)
+
+Ex : if i enter 843 means Eight hundred forty three
+
+Ex : if i enger 1234 means One thousand two hundred and thirty four. 
+
+2) Write a program Multiplication of 2 nos (100 digit number * 100 digit number) exact value i need
+
+3) Create a class as Student (sno,firstName,lastName,cgp) and compare Student objects based on
+cgp field and display true or false. print records using toString() 
+
+4) Write a Program Create a class as TimeZone which contains hrs and mins, Accept two times and print
+sum. 
+
+Ex : Time 1 contains 3 hrs 30 mins
+
+     Time 2 contains 2 hrs 45 mins 
+
+Then result will be 6 hrs 15 mins 
+
+Use constructor(s) and toString() method. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
