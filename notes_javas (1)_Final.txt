@@ -1,0 +1,145 @@
+Types of Programmings : 
+_______________________ 
+
+1) Procedure Oriented Programming 
+
+2) Object Oriented Programming 
+
+Procedure oriented programming methodlkogy involves dividing a program into a set of subprocedures or subprograms that perform specific tasks. These modules can be user-defined or can be taken from libraries. 
+
+Object-Oriented Programming : It is an approach that provides a way of modularizing programming, that which can be used to create small partition memory area for both data and objects which are to be used as templates for creating copies of such modules on demand. 
+
+Object : It is an entity that which can be identified and possess 3 chars. known as 1) State 2) Behaviour and Identity 
+
+OOPS features : 
+
+1) Encapsulation : Wrapping up of data and functions into a single unit is called Encapsulation. 
+
+2) Abstraction : Hiding the irrelevant details of an object that do not contribute to its essential characterstics know as Abstraction. 
+
+Encapsulation focuses on showing the relevant details whereas abstraction focuses on hiding the irrelevant details. 
+
+Inheritance : Deriving a new entity from already existing entity. 
+
+Polymorphism : The ability to take more than one form is known as polymorphism. 
+
+class : A class is a template that contains the combination of data members and memberfunctions that which belongs to one common group. 
+
+class xyz
+{
+    int x,y;
+    public void display()
+    {
+     ...
+     ...
+    }
+}
+
+C++ is the object oriented programming language, 
+
+java is purely object oriented programming 
+
+why java
+__________
+
+1) Platform Independence : write once and run anywhere. 
+
+Console Applications
+
+Windows Applications 
+
+Web Applications 
+
+2) Application Programs 
+
+3) Applets : Applets are small executable programs that run on web page. These prorams require a java-enabled browser, such IE or Netscape.  They have limited access to system resources. 
+
+4) Packages : 
+__________________________________________
+
+Java Features
+______________
+
+1) Simple : Java programmer does not need to know the internal details of java as to how memory is allocated to data because in java, the programmer does not need to handle memory manipulation. The syntax of the java language is similar to c/c++. 
+
+2) Object-oriend : It is purely object-oriente d 
+
+3) Compiled and Interpreted :  
+
+Java programs are compiled and then interpreted, while compiling the software checks for the errors in the porgram and lists all the errors.  During compilation java creates bytecode. It has the extension .class 
+JVM then interprets this bytecode into a computer code and runs it. While interpreting the interpreter software reads and executes the code line by line. The java interpreter can execute java code directly on any computer on whihc a JVM has been installed. 
+
+Portable : Ability of the program to run on any platform without changing the source code of the app. Java enables the creation of cross-platform prorams by compiling the programs into an intermediate represetation called java bytecode. 
+
+Distributed : Java is used to develop apps that can be distributed among various computers on the network, java is designed for the distributed env, of the internet because it supports the various protocols. 
+
+Secure : Java has built-in security features that verify that the programs do not perform any destructive task, such as accessing the files from the remote system, java does not allow the use of explicit pointers, whihc are used to refer to memory localtions. 
+
+Java Architecture : Various components of Java architecture are 
+
+1) Java Programming Language
+
+2) Java Class file
+
+3) Java Virutal Machine
+
+4) Java API
+__________________________________________
+
+Java Programming Language : Java programs are saved with the extension .java. A .java file is compiled to generate the .class file, which contains the bytecode. JVM converts the bytecode contained in the .class file to machine object code. 
+
+Java Virtual Machine (JVM)
+__________________________
+
+Components of JVM 
+_________________
+
+class loader
+
+Execution Engine
+
+JIT Compiler 
+
+Class loader loads the class files, which are required by a program running in the memory. The classes are loaded dynamically when rquired by the running program, A JVM can have following types of class loaders. 
+
+  1) Primordial class loader : Loads a java API classes required by the running java prog. 
+
+  2) Class Loader Objects : Loads the classes of java application program, an app can create class loaders at runtime for loading the classes of the app. 
+
+Execution Engine : 
+
+Runs the bytecode one line after another. This execution engine converts the bytecode to the machine object code and runs it. 
+
+JIT compiler : Used for compiling the Bytecode into executable code. JVM runs the JIT compiled code without interpreting because the JIT-compiled code is in the machine code format.  
+
+Java Architecture Security 
+__________________________
+
+  1) compiler level security 
+  
+  2) Bytecode verifier
+ 
+  3) Class loader 
+
+  4) Sandbox model
+
+  -- compiler level 
+
+Sometimes we have to compare the incompatible data, such as text and a number. To compare such data, you need to convert data of one type to another, such as text to number or number to text. Here you have to ensure the security problems (boxing and unboxing) 
+
+Bytecode Verifier : 
+
+It happens in 2 phases
+
+1) In the first phase, the verifier checks fo rthe structure of the .class file. 
+
+2) The second phase occurs when the bytecode is run. The bytecode verifier checks the validity of the classes, variables and methods used in the program. 
+
+-- class loader
+
+  It determines how and when to use classes in running java env. In a java env. there can be many class loaders and each class laoder can create its own run-time env.
+
+-- Sandbox model
+
+ implemented in the java applets container.    
+
