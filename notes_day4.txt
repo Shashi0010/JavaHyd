@@ -132,6 +132,19 @@ Then result will be 6 hrs 15 mins
 Use constructor(s) and toString() method. 
 
 
+enum : Contains fixed group of constants set. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
