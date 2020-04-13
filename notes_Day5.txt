@@ -1,0 +1,73 @@
+static variables : 
+
+These are called class varaiables, which used to initilize the static variables of the class. 
+
+These variables can be accessable by using classname. 
+
+static methods : These are the methods, that which are to be called by using class_name.
+No object required to call these methods. 
+
+StringBuilder : Which contains predefined methods, which allows you to make changes on 
+given string. 
+
+EmployValidate will perform the following validations.
+
+	1) empno not negative
+
+	2) name not greater than 12 chars
+
+	3) basic cannot be greater than 50000
+
+Print all error messages. 
+
+Inheritance : The concept of deriving a new class from already existing class known as inheritane,
+the class which is derived known as derived class, the class from which its derived known as base class. 
+
+Through inheritance, we can reduce the size of the program. 
+
+class A {
+...
+...
+}
+
+class B extends A{
+...
+...
+}
+
+
+Once you create an object to class B, then you can access all public/protected and friendly 
+members of class A. 
+
+super keyword : If you want to pass values from derived class to base class, then we need the help of
+super keyword, it has 2 forms as 
+
+	(i) super as a keyword
+
+       (ii) super as a constructor 
+
+
+abstract class : 
+_________________
+
+
+A class that which can be created, but not implemented and instantiated known as abstract class. Abstract class contains abstract and non-abstract methods, abstract methods needs to be overrided mandetorily by the derived class.
+
+You cannot create an object to the abstract class. 
+
+Will abstract class contains constructor(s) 
+
+interfaces : 
+
+
+
+
+
+
+
+
+
+
+
+
+
