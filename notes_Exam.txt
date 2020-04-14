@@ -1,0 +1,198 @@
+class P10{
+   int age;
+   String name;
+  //This is a Static Method
+   static void disp(){
+      System.out.println("Age is: "+age);
+      System.out.println("Name is: "+name);
+  }
+  // This is also a static method
+  public static void main(String args[]) 
+  {
+	  age = 30;
+	  name = "Steve";
+      disp();
+  }
+}
+
+
+
+
+enum Test {
+	    A, B, X, Y, P, C,N;
+	    private Test() {
+        	System.out.println("Hi");
+	    }
+	}
+
+public class P13 {
+    public static void main(String[] args) { 
+        Test t =Test.Y;
+    }
+}
+
+
+public class Demo {
+	public static void main(String[] args) {
+		int[] a = new int[] {12,5,77,23,44};
+		for(int i : a) {
+			System.out.println(a);
+		}
+	}
+}
+
+package com.zorin.exam;
+__________________________________________
+public class Quiz1 {
+	int empno;
+	String name;
+	double basic;
+	public Quiz1(int empno, String name, double basic) {
+		super();
+		this.empno = empno;
+		this.name = name;
+		this.basic = basic;
+	}
+	public static void main(String[] args) {
+		Quiz1 obj = new Quiz1(1, "Anand", 55222);
+		System.out.println(obj);
+	}
+}
+
+public class P14 {
+    public static void main(String[] args) {
+        String arr[] =new String[]{"Divya",
+            "Fantasy"};
+        String a="Divya";
+        System.out.println(a.equals(arr[0]));
+    }
+}
+
+public class Quiz5 extends String {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
+}
+
+extends String not possible because String is final 
+class, as final classes cannot be inherited, 
+
+class C1 {
+     void test() {
+        System.out.println("Welcome...");
+    }
+}
+class C2 extends C1 {
+    void test() {
+        System.out.println("Bye");
+    }
+}
+public class P28 {
+    public static void main(String[] args) {
+        C1 obj=(C1)new C2();
+        C1 obj = (C2)new C2();
+        C2 obj = (C1)new C2(); 
+        C2 obj = (C2)new C2();
+        obj.test();
+    }
+}
+
+public class Quiz8 {
+   static boolean flag;
+   public static void main(String[] args) {
+     System.out.println(flag);
+   }
+}
+
+public class Quiz8 {
+   public static void main(String[] args) {
+     boolean flag;
+     System.out.println(flag);
+   }
+}
+
+public class P35 {
+
+    static int x=12;
+    
+    public static int show() {
+
+        return x--;
+    }
+
+    public static void main(String[] args) { 
+        show();
+        System.out.println(x);
+    }
+}
+class C1 {
+    public int x=1;
+    C1() {
+        System.out.println("jhg");
+    }
+}
+class C2 extends C1 {
+    int x;
+    public C2(int x) {
+       this.x=x;
+    }
+}
+public class P37 {
+    public static void main(String[] args) {
+        C2 obj = new C2(10);
+        System.out.println(obj.x);
+    }
+}
+
+__________________________________________
+
+
+class Demo {
+    static {
+        System.out.println("Hi");
+    }
+}
+public class P40 {
+    public static void main(String[] args) {
+        System.out.println("Bye");
+    }
+    static {
+        System.out.println("Hello");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
