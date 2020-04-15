@@ -1,0 +1,23 @@
+package com.zorin.day7;
+
+interface ITraining {
+	void name();
+	void email();
+}
+
+class Niharika implements ITraining {
+
+	@Override
+	public void name() {
+		System.out.println("Name is Niharika ");
+	}
+
+	@Override
+	public void email() {
+		System.out.println("Email Niha@gmail.com");
+	}
+	
+}
+public class IntfDemo {
+
+}

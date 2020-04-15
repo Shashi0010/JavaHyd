@@ -1,0 +1,12 @@
+package com.zorin.day7;
+
+public class CalcDemo {
+
+	public void calc(int a, int b) {
+		boolean flag = false;
+	}
+	
+	public static void main(String[] args) {
+		int a,b;
+	}
+}

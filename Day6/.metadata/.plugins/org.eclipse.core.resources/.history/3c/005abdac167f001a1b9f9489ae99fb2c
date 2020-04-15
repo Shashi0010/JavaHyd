@@ -1,0 +1,15 @@
+package com.zorin.day7;
+
+public class Validate {
+
+	public void check(int age) throws VotingException {
+		if (age < 18) {
+			throw new VotingException("You are not elligible for voting...");
+		} else {
+			System.out.println("You are Elligible for Voting...");
+		}
+	}
+	public static void main(String[] args) {
+		int age=12;
+	}
+}

@@ -1,0 +1,16 @@
+package com.zorin.day7;
+
+interface IOne {
+	void name();
+}
+
+interface ITo {
+	void email();
+}
+
+class Demo implements IOne, ITwo {
+	
+}
+public class MultiInh {
+
+}

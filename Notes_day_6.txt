@@ -1,0 +1,131 @@
+interfaces : 
+
+Java does not support the concept of multiple inheritane, to achieve this we need the help of
+interfaces.  An interface contains method declaration and the implementation can be done in
+the corresponding class. You can add more than one interface to the particular class. 
+
+Difference between interface and abstract class :
+__________________________________________________
+
+
+	1) An abstract class contains both abstract and non-abstract methods, where interface
+		contains only abstract methods. 
+
+	2) Interface methods are public and abstract by default. 
+
+	3) Multiple Inheritance can be achieved by using interfaces. 
+
+	4) An interface can be called from anyhere to anywhere. 
+
+
+Exception Handling : It is a mechanism of handling the runtime errors during execution of the program.
+
+There are 2 types of errors known as 
+
+	(i) Compile 
+ 
+       (ii) Runtime 
+
+Runtime errors occurs, during runtime if we pass invalid values the type of errors we are getting
+are known as runtime errors. By using Exception Handling, we can overcome the runtime errors. 
+
+To handle exceptions, we have 3 blocks as 
+
+1) try block : This block contains statements in which there is possibility of getting runtime errors,
+the statements which are placed in this block are treated as heavy weighted statements as JVM allocates
+excess memory to them.
+
+2) catch block : Once exception raised in try block, then the control will be forwarded to catch block, this block conain alternate statements for exceptions raised in try block. One try block can conains multiple catch blocks. 
+
+3) finally block : This block contains statements that needs to be executed mandetorily irrespective of try and catch blocks, this block is not mandetory, but all the statements which are placed in this block are executed as 
+mandetory statements. 
+
+
+Exception is the top most class from which all kinds of exceptions are derived. 
+
+In Java, we have 2 types of exceptions known as 
+
+	1) Checked Exceptions  : These are the exceptions that which occurs at compile time, during compilation JVM feels              some erroneous code is the and stops the execution at compile time, and can be handled at
+		method level by using throws keyword. 
+
+	2) Unchecked Exceptions : These are the exceptions that which occurs at runtime, and can be handled at code level using try..catch block. 
+
+Custom Exceptions : Sometimes system exceptions are inadequate to handle in all situations, 
+to overcome this, we need the help of custom exceptions. Any class, that which derived from 
+exception can be treated as Custom Exception. 
+
+class CustomException : Exception {
+   CustomException(String error) {
+	super(error);
+   }
+}
+
+Write a Program as Perform sum of 2 nos, but if any number < 0 then throw NegativeException, 
+and if any number = 0 then throw NumberZeroException 
+
+Exercise : 
+__________
+
+Write a Program validate email address as read Email, and 
+
+if '@' not found then throw InvalidEmailException
+
+if length of username means assume dineshkumar@gmail.com in that dineshkumar is username
+if length of username > 12 chars then throw InvalidUserException
+
+Else print Email 
+
+public class Agent {
+
+	int agentId;
+	String agentName;
+	double modalPremium;
+	int payMode;
+	double annualPremium;
+}
+
+for above class create an Exception called AgentException 
+
+if agentId < 0 then print InvalidAgentId message
+if agentName is NULL or agentName length > 15 chars print InvalidAgentName message. 
+if modalPremium < 1000 then throw Invalid ModalPremium
+paymode only 1,2 or 3 
+if AnnualPremium not between 50000 AND 100000 then throw message. 
+
+Note : All errors needs to be displayed at once. 
+
+
+Java Properties : 
+
+Properties are methods, that which can be used for value types operations. 
+If you want to represent any variable as a field an control the internal behaviour, then 
+we need the help of properties. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

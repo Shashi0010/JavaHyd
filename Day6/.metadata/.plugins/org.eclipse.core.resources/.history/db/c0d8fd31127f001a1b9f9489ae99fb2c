@@ -1,0 +1,8 @@
+package com.zorin.day7;
+
+public class DivEx {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.zorin.day7;
+
+import java.io.FileInputStream;
+
+public class FInput {
+	public static void main(String[] args) {
+		FileInputStream fin=new FileInputStream("d:/hello.txt");
+	}
+}

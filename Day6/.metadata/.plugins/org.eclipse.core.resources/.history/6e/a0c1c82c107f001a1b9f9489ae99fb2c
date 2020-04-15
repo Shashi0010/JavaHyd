@@ -1,0 +1,22 @@
+package com.zorin.day7;
+
+interface IOne {
+	void name();
+}
+
+interface ITwo {
+	void email();
+}
+
+class Demo implements IOne, ITwo {
+
+	@Override
+	public void name() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class MultiInh {
+
+}
