@@ -1,0 +1,9 @@
+name="Divya"
+name.isupper()
+print(name.isupper())
+name.lower()
+print(name)
+print(name.lower())
+name.upper()
+print(name)
+print(name.upper())
