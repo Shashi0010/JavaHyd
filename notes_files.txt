@@ -1,0 +1,60 @@
+Files :
+________
+
+A file is a collection of data, which allows you to store output permanently. 
+
+To deal with files, we need java.io package 
+
+File class :
+____________
+
+This class allows you to deal with files. 
+
+File obj=new File(filename); 
+
+FileReader : Used to read the data from the file. 
+
+read() : Used to read data char/char and returns the ascii value, we have to typecast to char type.
+it returns -1 once it reaches the end of file.  It reads the data w.r.t. Unicode format. 
+
+FileWriter : Allows you to write the data into the file. 
+
+write() : used to write data char/char. 
+
+The drawback with FileReader is it reads only the text data. For reading all kinds of data, we need
+
+FileInputStream : used to read data w.r.t. Stream of bytes. 
+
+FileOutputStream : used to write data w.r.t. Stream of bytes. 
+
+DataOutputStream : Used to write primitive types into the file. 
+
+
+writeInt()
+writeUTF()
+writeDouble()
+writeBoolean() 
+
+
+BufferedReader : Allows you to read the data from the keyboard. 
+
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+
+readLine() : used to read one line of input from the keyboard. 
+
+ObjectOutuptStream  : Used to write an object into the file.
+
+		writeObject() : Used to write an object into the file. 
+
+ObjectInputStream  : Used to read an object from the file.
+
+		readObject() : Used to read an object from the file. 
+
+
+
+
+
+
+
+
+
