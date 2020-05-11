@@ -1,0 +1,33 @@
+What is the difference betweenn Comparable and Comparator 
+
+Comparable implements compareTo(), where comparator implements compare()
+
+By default, we have to speecify the sort field, please use Comparable
+
+Comparable can be applied on same class, but comparator takes another class to implement.
+
+You can apply more than one comparator, but only one comparble will be allowed. 
+
+Generics : 
+___________
+
+Generics provides an opportunity to define data types at runtime, 
+
+	if you want to make any method as write once and apply for all types, then we need the 
+		help of generics. 
+
+
+	You can define generics by using <T>, as in place of T we can pass any type. 
+
+Advantages of Generics : 
+_________________________
+
+	-> Write Once and apply for all types.
+
+	-> No Typecasting Required
+
+	-> Reduces the size of the program. 
+
+	-> Implements Security. 
+
+
